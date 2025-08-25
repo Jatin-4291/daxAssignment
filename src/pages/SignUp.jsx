@@ -55,7 +55,7 @@ export default function SignUp() {
     <div className="flex flex-col h-screen w-full bg-white gap-4">
       <Header heading="Create New Account" isLogin={false} />
       <div className="flex flex-col items-center mt-14  h-4/5">
-        <div className="grid grid-cols-2 gap-10 w-full w-4/5 h-3/5 justify-center">
+        <div className="grid grid-cols-2 gap-10 w-4/5 h-3/5 justify-center">
           <InputField
             placeholder="NAME"
             value={form.name}
